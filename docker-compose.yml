@@ -12,7 +12,7 @@ phpfpm:
     - htdocs
     - db
 db:
-  image: mariadb
+  image: mysql
   volumes:
     - /var/run/mysqld
   environment:
@@ -21,4 +21,4 @@ htdocs:
   image: busybox
   stdin_open: true
   volumes:
-    - htdocs:/var/www/html
+    - ./htdocs:/var/www/html
