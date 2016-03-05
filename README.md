@@ -1,6 +1,6 @@
 # docker-lemp
 
-Run Nginx, php-fpm and MariaDB using [Docker]
+Run Nginx, php-fpm and Mysql using [Docker]
 
 ## Requirements
 Install [Docker] and [Compose]
